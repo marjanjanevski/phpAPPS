@@ -1,0 +1,103 @@
+{
+  "casesHero": {
+    "title": "AI Sales Reporting Tool",
+    "description": "Ett tekniskt Proof of Concept som baserades på Googles Speech-to-text AI.",
+    "img": "/img/casesHero.png",
+    "subtitle": "Gidås - 2018 - idag",
+"highlights": [
+  {
+    "title": "Proof of concept",
+    "description": "Proof of Concept är ett tidigt kvitto på ett koncepts genomförbarhet eller potential."
+  },
+  {
+    "title": "Prototyp",
+    "description": "Till skillnad från wireframes eller designskisser är en prototyp klickbar och visar hur tjänsten eller verktyget ska fungera."
+  },
+  {
+    "title": "MVP",
+    "description": "En MVP är kärnan i det digitala verktyget eller tjänsten. En första fungerande lösning med måste-funktionerna."
+  }
+],
+    "button": {
+      "color": "pink",
+      "label": "Nästa -cervd",
+      "link": "/cases/cervd"
+    }
+  },
+  "introductionCard": {
+    "label": "Utmaning",
+    "subtitle": "",
+    "cardTitle": "",
+    "smallTitle": "Voice bot",
+    "description": "Det började ungefär så här… Tänk om vi kunde få våra svenska säljare att rapportera i CRM:et direkt efter varje enskilt säljmöte för att förbättra kvalitén….",
+    "subDescription": "Uppdraget började som ett Proof of Concept där utmaningen bestod i att förenkla och förbättra kvaliteten på säljrapportering hos en grupp resande svenska säljare men slutade som en MVP. Tidigare rapporterade säljarna månadens möten vid ett och samma tillfälle i slutet av varje månad i sitt Säljstödsystem (CRM) på koncernspråket engelska vilket resulterade i bristfällig information, osäkra prognoser och begränsade möjligheter till uppföljning."
+  },
+  "paragraphCard": {
+    "label": "lösning",
+    "quote": "",
+    "cardTitle": "Från röst till text",
+    "description": "Vi gjorde först ett tekniskt Proof of Concept som baserades på Googles Speech-to-text AI. Därefter designade vi en prototyp och utvecklade en MVP i form av en röststyrd applikation som triggades av kalenderhändelser som definierats som säljmöten. Applikationen ringde själv upp säljarens mobil och en robotröst intervjuade säljaren utifrån fördefinierade frågor. Exempelvis: Vilken var kunden?, vilka produkter diskuterades, vad var särskilt intressant, när bör uppföljning ske? ",
+    "subDescription": "Svaren från säljaren transkriberades i realtid med hjälp av Googles Speech-to-text AI och översattes även till en engelsk version. Därefter exporterades svaren enligt en given mall direkt in i CRM-systemet, både som specifika svar men också som en sammanfattning. Smidigt – vi vet!"
+  },
+  "imageFull": {
+    "image": "/img/book.png"
+  },
+  "hugeSlider": {
+    "images":["/img/book.png", "/img/book.png", "/img/book.png"]
+  },
+  "paragraphCard2": {
+    "label": "resultat",
+    "quote": "",
+    "cardTitle": "Den första MVP:n som var i bruk 16 veckor senare",
+    "description": "Idag finns det två versioner av Emma tillgängliga: \"Emma Light\", där aktiviteterna är förbestämda och användarna bara behöver ange data, och \"Emma Custom\", där företag kan skapa egna utsläppsfaktorer och aktiviteter för att möta specifika behov. Vi fortsätter att arbeta på att förbättra och göra tjänsten mer flexibel och användarvänlig, med målet att nå alla de olika sektorer som behöver Emma för sin hållbarhetsrapportering. Svenska Skidförbundet sköter nu hela sin hållbarhetsrapportering både för egna utsläpp och för evenemang och tävlingar.",
+    "subDescription": "",
+    "followedByDivider" : "true"
+  },
+  "contactCard": {
+    "label" : "Något för dig?",
+    "cardTitle" : "Vill du prata digital tjänsteutveckling?",
+    "list" : {
+      "items" : [
+        "Hör av dig oavsett om du har en hel digital företagsidé eller vill utveckla en ny digital tjänst inom ditt område. Vi kan hjälpa dig att avgränsa din idé, utforska potentialen och ge dig en uppfattning om storleken på investeringen.  Ett naturligt nästa steg blir att fortsätta på erbjudandena inom Tjänstedesign & Innovation"
+      ]
+    },
+    "subtitle": "Nya Uppdrag",
+    "employee": {
+      "name": "Christer Hillörn",
+      "title": "Digital strateg",
+      "contactPhone" : "070 - 690 14 50",
+      "contactEmail" : "christer@minabastapolare.se"
+    },
+    "button" : {
+      "label": "HITTA FLER POLARE",
+      "color": "green",
+      "link": "/kontakt"
+    }
+  },
+  "verticalImageCard": {
+    "image": "/img/case-image-01.webp",
+    "imgOverlay": "/shapes/circle.svg",
+    "cardTitle": "Tjänstedesign och Innovation",
+    "description": "Vi arbetar med tjänstedesign för att ta fram nya innovativa och användarvänliga tjänster, eller förbättra befintliga. Genom att ta reda på användarnas behov, beteenden och drivkrafter kan vi designa digitala upplevelser som lyfter din affär på riktigt.",
+    "button" : {
+      "label" : "Våra designerbjudanden",
+      "color" : "primary",
+      "hoverColor" : "green",
+      "link" : "/tjanster/tjanstedesign-och-innovation"
+    }
+},
+  "verticalImageCard2": {
+    "image": "/img/case-image-02.webp",
+    "imgOverlay": "/shapes/eclipse.svg",
+    "cardTitle": "Webb- och systemutveckling",
+    "description": "Vi utvecklar den mest effektiva lösningen för ditt företag, helt utifrån era behov. Fristående applikationer, API-integrationer mellan olika system, en skräddarsydd plattform med ett affärssystem i bakgrunden eller annat som bäst möter dina behov.",
+    "button" : {
+      "label" : "Våra utvecklingserbjudanden",
+      "color" : "blue",
+      "hoverColor" : "green",
+      "link" : "/tjanster/webb-och-systemutveckling"
+    }
+  }
+
+
+}

@@ -1,0 +1,99 @@
+{
+  "casesHero": {
+    "title": "Emma",
+    "img": "/img/casesHero.png",
+    "subtitle": "Gidås Hållbarhetsbyrå",
+    "highlights": [
+      {
+        "title": "Proof of concept",
+        "description": "Proof of Concept är ett tidigt kvitto på ett koncepts genomförbarhet eller potential."
+      },
+      {
+        "title": "Prototyp",
+        "description": "Till skillnad från wireframes eller designskisser är en prototyp klickbar och visar hur tjänsten eller verktyget ska fungera."
+      },
+      {
+        "title": "MVP",
+        "description": "En MVP är kärnan i det digitala verktyget eller tjänsten. En första fungerande lösning med måste-funktionerna."
+      }
+    ],
+    "button": {
+      "color": "pink",
+      "label": "Nästa Cervd",
+      "link": "/cases/cervd"
+    }
+  },
+  "introductionCard": {
+    "label": "Utmaning",
+    "cardTitle": "Emma",
+    "description": "Emma är en skräddarsydd SaaS-lösning för att organisera och rapportera koldioxidutsläpp på ett effektivt sätt, genom att förenkla processen med en användarvänlig plattform som genererar större genomslag.",
+    "subDescription": "Projektets ursprungliga omfattning var enorm. En stor del av arbetet med Emma har varit att skala ner, hitta rätt fokus och streamline rapporteringsprocessen för att komma fram till en lyckad MVP."
+  },
+  "paragraphCard": {
+    "label": "lösning",
+    "quote": "",
+    "cardTitle": "Från stort till smart",
+    "description": "Arbetet med Gidås började långt tidigare i en gigantisk excel, men vi började samarbetet och la grunden till den digitala molnlösningen Emma i en workshop där vi skapade en bild av tjänstens syfte, användargrupper, användarbehov, konkurrenter och mål. Sen grävde vi ner oss i hållbarhetsramverk, koldioxidekvivalenter och utsläppsberäkningar.",
+    "subDescription": "I arbetet med Emma har vi testat konceptet genom att prototypa i flera omgångar och tekniker. Från början bara i ett google doc och senare i enklare fungerande utsläppskalkylatorer och klickbara prototyper i Figma. Vi har under hela arbetet tagit prototyperna ut till potentiella användare och testat och utvärderat både koncept och användbarhet."
+  },
+  "hugeSlider": {
+    "images":["/img/cases/emma/emma-01.jpg", "/img/cases/emma/emma-02.jpg", "/img/cases/emma/emma-03.jpg"]
+  },
+  "imageFull": {
+    "image": "/img/cases/emma/emma-01.jpg"
+  },
+  "paragraphCard2": {
+    "label": "resultat",
+    "quote": "",
+    "cardTitle": "Ökad hållbarhet, målgrupp för målgrupp",
+    "description": "Idag finns det två versioner av Emma tillgängliga: <br>\"Emma Light\" - här är aktiviteterna förbestämda och användarna behöver endast fylla i sin egen data <br> \"Emma Custom\" - här kan företag skapa egna utsläppsfaktorer och aktiviteter för att möta specifika behov<br> Vi fortsätter nu arbetet genom att finjustera och göra tjänsten mer flexibel och ännu mer användarvänlig. Målet är att nå alla de branscher som behöver Emma för sin hållbarhetsrapportering. Redan idag använder Svenska Skidförbundet Emma för hela sin hållbarhetsrapportering. Både för egna utsläpp, evenemang och tävlingar.",
+    "subDescription": "",
+    "followedByDivider" : "true"
+  },
+  "contactCard": {
+    "label" : "Något för dig?",
+    "cardTitle" : "Vill du prata digital tjänsteutveckling?",
+    "list" : {
+      "items" : [
+        "Hör av dig oavsett om du har en hel digital företagsidé eller vill utveckla en ny digital tjänst inom ditt område. Vi kan hjälpa dig att avgränsa din idé, utforska potentialen och ge dig en uppfattning om storleken på investeringen.  Ett naturligt nästa steg blir att fortsätta på erbjudandena inom Tjänstedesign & Innovation"
+      ]
+    },
+    "subtitle": "Nya Uppdrag",
+    "employee": {
+      "name": "Marcus Ohlsén",
+      "title": "Projektledare",
+      "contactPhone" : "070 - 690 14 50",
+      "contactEmail" : "marcus.o@minabastapolare.se"
+    },
+    "button" : {
+      "label": "HITTA FLER POLARE",
+      "color": "green",
+      "link": "/kontakt"
+    }
+  },
+  "verticalImageCard": {
+    "image": "/img/case-image-01.webp",
+    "imgOverlay": "/shapes/circle.svg",
+    "cardTitle": "Tjänstedesign och Innovation",
+    "description": "Vi arbetar med tjänstedesign för att ta fram nya innovativa och användarvänliga tjänster, eller förbättra befintliga. Genom att ta reda på användarnas behov, beteenden och drivkrafter kan vi designa digitala upplevelser som lyfter din affär på riktigt.",
+    "button" : {
+      "label" : "Våra designerbjudanden",
+      "color" : "primary",
+      "hoverColor" : "green",
+      "link" : "/tjanster/tjanstedesign-och-innovation"
+    }
+},
+"verticalImageCard2": {
+  "image": "/img/case-image-02.webp",
+  "imgOverlay": "/shapes/eclipse.svg",
+  "cardTitle": "Webb- och systemutveckling",
+  "description": "Vi utvecklar den mest effektiva lösningen för ditt företag, helt utifrån era behov. Fristående applikationer, API-integrationer mellan olika system, en skräddarsydd plattform med ett affärssystem i bakgrunden eller annat som bäst möter dina behov.",
+  "button" : {
+    "label" : "Våra utvecklingserbjudanden",
+    "color" : "blue",
+    "hoverColor" : "green",
+    "link" : "/tjanster/webb-och-systemutveckling"
+  }
+}
+
+}

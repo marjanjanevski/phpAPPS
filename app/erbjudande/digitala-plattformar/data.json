@@ -1,0 +1,130 @@
+{
+  "offersHero3": {
+    "title": "Digitala plattformar",
+    "img": "/img/offers/digitala-plattformar.jpg",
+    "subtitle": "Skräddarsy din lösning",
+    "heroCta" : {
+      "color" : "",
+      "label" : "JAG VILL PRATA DIGITAL PLATTFORM",
+      "link" : "/"
+    },
+    "imgOverlay" : {
+      "src" : "/shapes/circle.svg",
+      "rounded" : "true",
+      "center" : "true",
+      "page" : "digitala-plattformar"
+    },
+    "button" : {
+      "color" : "pink",
+      "label" : "Nästa: API",
+      "link" : "/erbjudande/api-integrationer"
+    }
+  },
+  "productCard": {
+    "label" : "Vad är en prototyp?",
+    "cardTitle" : "En prototyp bor mellan idén och den färdiga lösningen.",
+    "description" : "Till skillnad från wireframes eller designskisser är prototypen klickbar och visar hur tjänsten eller verktyget ska fungera. Med prototypen gör vi tester med riktiga användare för att få tidig feedback och validera användarupplevelsen. Du får ett kvitto på vad tjänsten eller verktyget löser för användarna och undviker onödiga kostnader i den fortsatta utvecklingen. Arbetssättet går även att använda för att förbättra befintliga digitala lösningar.",
+    "list" : {
+      "color" : "blue",
+      "title" : "Vad ingår?",
+      "items" : [
+        "Klickbara prototypskisser i Figma",
+        "Tester av prototypen på riktiga användare",
+        "Sammanställning av feedback och insikter från användare",
+        "En validerad förbättring av UX-designen",
+        "Rekommendationer framåt"
+      ]
+    }
+  },
+  "productSlider": {
+    "slides": [
+      {
+        "company": "Janssen Pharmaceuticals",
+        "title": "AI Sales Reporting Tool",
+        "subtitle": "Ett tekniskt Proof of Concept som baserades på Googles Speech-to-text AI.",
+        "img": "/map.png",
+        "label": "WORK WORK WORK",
+        "heroCta": {
+          "color" : "",
+          "label" : "LÄS HELA CASET",
+          "link" : "/"
+        }
+      },
+      {
+        "company": "Janssen Pharmaceuticals",
+        "title": "AI Sales Reporting Tool",
+        "subtitle": "Ett tekniskt Proof of Concept som baserades på Googles Speech-to-text AI.",
+        "img": "/map.png",
+        "label": "WORK WORK WORK",
+        "heroCta": {
+          "color" : "",
+          "label" : "LÄS HELA CASET",
+          "link" : "/"
+        }
+      },
+      {
+        "company": "Janssen Pharmaceuticals",
+        "title": "AI Sales Reporting Tool",
+        "subtitle": "Ett tekniskt Proof of Concept som baserades på Googles Speech-to-text AI.",
+        "img": "/map.png",
+        "label": "WORK WORK WORK",
+        "heroCta": {
+          "color" : "",
+          "label" : "LÄS HELA CASET",
+          "link" : "/"
+        }
+      }
+    ]
+  },
+  "contactCard1": {
+    "label" : "Något för dig?",
+    "cardTitle" : "Exempel på användningsområden för digitala plattformar",
+    "list" : {
+      "items" : [
+        "Streaming",
+        "Certifiering",
+        "Digital utbildning",
+        "Uthyrning",
+        "Matchmaking",
+        "Kundkommunikation"
+      ]
+    },
+    "subtitle": "Nya Uppdrag",
+    "employee": {
+      "name": "Christer Hillörn",
+      "title": "Digital strateg",
+      "contactPhone" : "070 - 690 14 50",
+      "contactEmail" : "christer@minabastapolare.se"
+    },
+    "button" : {
+      "label": "HITTA FLER POLARE",
+      "color": "green",
+      "link": "/kontakt"
+    }
+  },
+  "verticalImageCard": {
+    "image": "/img/offers/integrationer_mini.jpg",
+    "imgOverlay": "/shapes/labrinth.svg",
+    "cardTitle": "API-integrationer",
+    "description": "APIer (Application Programming Interface) hjälper två eller flera olika system att prata och utbyta information med varandra. API-er kan göra massa arbete i bakgrunden och automatisera tidigare manuella processer.",
+    "button" : {
+      "label" : "Få system att prata",
+      "color" : "blue",
+      "hoverColor" : "pink",
+      "link" : "/erbjudande/api-integrationer"
+    }
+  },
+  "verticalImageCard2": {
+    "image": "/img/offers/applikationer_mini.jpg",
+    "imgOverlay": "/shapes/waves.svg",
+    "cardTitle": "Applikationer",
+    "description": "En applikation kanske är rätt för dig när du behöver specifik funktionalitet som ska användas på flera plattformar eller sajter",
+    "button" : {
+      "label" : "En för alla",
+      "color" : "pink",
+      "hoverColor" : "yellow",
+      "link" : "/erbjudande/applikationer"
+    }
+  }
+
+}

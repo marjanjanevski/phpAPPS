@@ -1,0 +1,24 @@
+.divider {
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.divider-blue {
+    background-image: url('/dividers/divider-blue.svg');
+}
+
+.divider-green {
+    background-image: url('/dividers/divider-green.svg');
+}
+
+.divider-pink {
+    background-image: url('/dividers/divider-pink.svg');
+}
+
+.divider-primary {
+    background-image: url('/dividers/divider-primary.svg');
+}
+
+.divider-white {
+    background-image: url('/dividers/divider-white.svg');
+}

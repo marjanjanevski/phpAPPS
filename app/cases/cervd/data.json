@@ -1,0 +1,96 @@
+{
+  "casesHero": {
+    "title": "Cervd",
+    "description": "",
+    "img": "/img/casesHero.png",
+    "subtitle": "Certifikatshantering",
+"highlights": [  
+  {
+    "title": "Prototyp",
+    "description": "Till skillnad från wireframes eller designskisser är en prototyp klickbar och visar hur tjänsten eller verktyget ska fungera."
+  },
+  {
+    "title": "MVP",
+    "description": "En MVP är kärnan i det digitala verktyget eller tjänsten. En första fungerande lösning med måste-funktionerna."
+  }
+],
+    "button": {
+      "color": "pink",
+      "label": "Nästa AI Sales Tool",
+      "link": "/cases/ai-sales-tool"
+    }
+  },
+  "introductionCard": {
+    "label": "Utmaning",
+    "cardTitle": "Cervd",
+    "description": "Cervd vill transformera certifikatshantering och ersätta plastkort, pärmar och papper med digitala certifikat i en användarvänlig plattform riktad till utbildningsföretag, arbetsgivare och den certifierade så klart.",
+    "subDescription": "Projektets utmaningar har handlat om att förstå vilka användare vi ska vända oss till, i vilken ordning, med vad och till vilket pris."
+  },
+  "paragraphCard": {
+    "label": "lösning",
+    "quote": "",
+    "cardTitle": "Iterativ optimering",
+    "description": "Vi har arbetat med koncept och paketering av tjänsten för flera olika målgrupper med olika roller och behov i ett certifikats livscykel. Vi har prototypat och användningstestat tjänsten med potentiella användare för att få förståelse för både behov och användbarhet. Den första MVPn har gått ut till betatestare under ett par månader innan den lanserades skarpt till den första användargruppen, utbildningsföretagen.",
+    "subDescription": ""
+  },
+  "imageFull": {
+    "image": "/img/cervd.png"
+  },
+  "hugeSlider": {
+    "images":["/img/cases/cervd/cases-slider-cervd-1.png", "/img/cases/cervd/cases-slider-cervd-2.png", "/img/cases/cervd/cases-slider-cervd-3.png"]
+  },
+  "paragraphCard2": {
+    "label": "resultat",
+    "quote": "",
+    "cardTitle": "Ett första steg av många till en digitaliserad certifikatshantering",
+    "description": "Cervd finns nu på marknaden för att utbildningsföretagen ska kunna förändra hur man arbetar med kompetensförsörjning och certifikatshantering för alltid, men utbildarna är bara starten. Vi har en fyra år lång roadmap framför oss för att bygga ut och anpassa Cervd till alla. Vi arbetar snabbt och iterativt, med fokus på att leverera värde så tidigt som möjligt och att kontinuerligt anpassa sig till förändringar.",
+    "subDescription": "",
+    "followedByDivider" : "true"
+  },
+  "contactCard": {
+    "label" : "Något för dig?",
+    "cardTitle" : "Vill du prata digital tjänsteutveckling?",
+    "list" : {
+      "items" : [
+        "Hör av dig oavsett om du har en hel digital företagsidé eller vill utveckla en ny digital tjänst inom ditt område. Vi kan hjälpa dig att avgränsa din idé, utforska potentialen och ge dig en uppfattning om storleken på investeringen.  Ett naturligt nästa steg blir att fortsätta på erbjudandena inom Tjänstedesign & Innovation"
+      ]
+    },
+    "subtitle": "Nya Uppdrag",
+    "employee": {
+      "name": "Marcus Ohlsén",
+      "title": "Projektledare",
+      "contactPhone" : "070 - 690 14 50",
+      "contactEmail" : "marcus.o@minabastapolare.se"
+    },
+    "button" : {
+      "label": "HITTA FLER POLARE",
+      "color": "green",
+      "link": "/kontakt"
+    }
+  },
+  "verticalImageCard": {
+    "image": "/img/case-image-01.webp",
+    "imgOverlay": "/shapes/circle.svg",
+    "cardTitle": "Tjänstedesign och Innovation",
+    "description": "Vi arbetar med tjänstedesign för att ta fram nya innovativa och användarvänliga tjänster, eller förbättra befintliga. Genom att ta reda på användarnas behov, beteenden och drivkrafter kan vi designa digitala upplevelser som lyfter din affär på riktigt.",
+    "button" : {
+      "label" : "Våra designerbjudanden",
+      "color" : "primary",
+      "hoverColor" : "green",
+      "link" : "/tjanster/tjanstedesign-och-innovation"
+    }
+},
+  "verticalImageCard2": {
+  "image": "/img/case-image-02.webp",
+  "imgOverlay": "/shapes/eclipse.svg",
+  "cardTitle": "Webb- och systemutveckling",
+  "description": "Vi utvecklar den mest effektiva lösningen för ditt företag, helt utifrån era behov. Fristående applikationer, API-integrationer mellan olika system, en skräddarsydd plattform med ett affärssystem i bakgrunden eller annat som bäst möter dina behov.",
+  "button" : {
+    "label" : "Våra utvecklingserbjudanden",
+    "color" : "blue",
+    "hoverColor" : "green",
+    "link" : "/tjanster/webb-och-systemutveckling"
+  }
+}
+
+}

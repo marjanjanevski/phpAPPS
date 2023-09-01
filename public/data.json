@@ -1,0 +1,513 @@
+{
+    "productCard": {
+      "label" : "Vad är en prototyp?",
+      "cardTitle" : "En prototyp bor mellan idén och den färdiga lösningen.",
+      "description" : "Till skillnad från wireframes eller designskisser är prototypen klickbar och visar hur tjänsten eller verktyget ska fungera. Med prototypen gör vi tester med riktiga användare för att få tidig feedback och validera användarupplevelsen. Du får ett kvitto på vad tjänsten eller verktyget löser för användarna och undviker onödiga kostnader i den fortsatta utvecklingen. Arbetssättet går även att använda för att förbättra befintliga digitala lösningar.",
+      "list" : {
+        "color" : "blue",
+        "title" : "Vad ingår?",
+        "items" : [
+          "Klickbara prototypskisser i Figma",
+          "Tester av prototypen på riktiga användare",
+          "Sammanställning av feedback och insikter från användare",
+          "En validerad förbättring av UX-designen",
+          "Rekommendationer framåt"
+        ]
+      }
+    },
+    "contactCard": {
+      "label" : "Något för dig?",
+      "cardTitle" : "Vad behöver ditt företag?",
+      "list" : {
+        "items" : [
+          "Visa potential och möjliga kundvärden innan vi investerar i vår idé",
+          "Visualisera, testa och validera nya idéer och processer för att få fäste och framåtdrift i vår stora organisation",
+          "Hämta in verkliga behov eller användarinsikter i vårt digitala projekt för att inte ta beslut på magkänsla",
+          "Öka vår kompetens inom digital innovation"
+        ]
+      },
+      "subtitle": "Nya Uppdrag",
+      "employee": {
+        "name": "Christer Hillörn",
+        "title": "Digital strateg",
+        "contactPhone" : "010 - 455 91 94",
+        "contactEmail" : "christer@minabastapolare.se"
+      },
+      "button" : {
+        "label": "HITTA FLER POLARE",
+        "color": "green",
+        "link": "/kontakt"
+      }
+    },
+    "introductionCard": {
+      "subtitle": "Janssen Pharmaceuticals - 2019",
+      "cardTitle": "Emma",
+      "description": "Det började ungefär så här… Tänk om vi kunde få våra svenska säljare att rapportera i CRM:et direkt efter varje enskilt säljmöte för att förbättra kvalitén…."
+    },
+    "paragraphCard": {
+      "label" : "Utmaning",
+      "quote": "“Tänk om vi kunde få våra svenska säljare att rapportera i CRM:et direkt efter varje enskilt säljmöte för att förbättra kvalitén”",
+      "cardTitle": "Title",
+      "description": "Uppdraget började som ett Proof of Concept där utmaningen bestod i att förenkla och förbättra kvaliteten på säljrapportering hos en grupp resande svenska säljare men slutade som en MVP. Tidigare rapporterade säljarna månadens möten vid ett och samma tillfälle i slutet av varje månad i sitt Säljstödsystem (CRM) på koncernspråket engelska vilket resulterade i bristfällig information, osäkra prognoser och begränsade möjligheter till uppföljning."
+    },
+    "horizontalImageCard": {
+      "image": "https://i.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "subtitle" : "Teknisk POC",
+      "cardTitle": "Är din idé tekniskt genomförbar?",
+      "description": "När flera olika system är inblandade kan det vara svårt att veta om din idé är tekniskt genomförbar. Vi kan avgränsa och bryta ut de tekniska utmaningarna och testa dem på ett så snabbt och enkelt sätt som möjligt. Vi tar reda på om din idé går att utveckla och vilka utmaningar vi behöver ta hänsyn till i fortsättningen av projektet.",
+      "list" : {
+        "title" : "Vad ingår?",
+        "items" : [
+          "Idéskisser & mockups",
+          "Case på teknisk lösning",
+          "Rekommendation framåt"
+        ]
+      }
+    },
+  "verticalImageCard": {
+    "image": "https://i.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+    "imgOverlay": "/shapes/circle.svg",
+    "cardTitle": "Är din idé tekniskt genomförbar?",
+    "description": "När flera olika system är inblandade kan det vara svårt att veta om din idé är tekniskt genomförbar. Vi kan avgränsa och bryta ut de tekniska utmaningarna och testa dem på ett så snabbt och enkelt sätt som möjligt. Vi tar reda på om din idé går att utveckla och vilka utmaningar vi behöver ta hänsyn till i fortsättningen av projektet.",
+    "button" : {
+      "label" : "testa din idé",
+      "color" : "green",
+      "hoverColor" : "green",
+      "link" : "/"
+    }
+  },
+  "imageText5050": {
+    "img": "/img/meetteam.png"
+  },
+  "infoBlockServices": {
+    "title": "Experience the Difference: Web Development Tailored to Your Needs.",
+    "subtitle": "Services",
+    "description": "Discuss your project with experts, share your needs and get free estimate today. Our company is specialized in web-development, hosting and e-commerce.\u2028Our services has helped out to more than 100 companies to grow and scale their web solution. Time is a valuable asset, so stop waiting and start your project today."
+  },
+  "infoBlockTeam": {
+    "title": "Let the transformation begin",
+    "subtitle": "Meet our Team",
+    "description": "Our approach, ideas and strategy in each project are unique. Our priority is the complete understanding of the operation of the business and the object of its occupation in order to draw up a 360° strategy that will have the sole objective of its further progress and development online."
+  },
+  "verticalImageCard2": {
+    "image": "https://i.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+    "imgOverlay": "/shapes/eclipse.svg",
+    "cardTitle": "Är din idé tekniskt genomförbar?",
+    "description": "När flera olika system är inblandade kan det vara svårt att veta om din idé är tekniskt genomförbar. Vi kan avgränsa och bryta ut de tekniska utmaningarna och testa dem på ett så snabbt och enkelt sätt som möjligt. Vi tar reda på om din idé går att utveckla och vilka utmaningar vi behöver ta hänsyn till i fortsättningen av projektet.",
+    "button" : {
+      "label" : "testa din idé",
+      "color" : "yellow",
+      "hoverColor" : "green",
+      "link" : "/"
+    }
+  },
+  "verticalImageCard3": {
+    "image": "https://i.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+    "imgOverlay": "/shapes/stripes.svg",
+    "cardTitle": "Är din idé tekniskt genomförbar?",
+    "description": "När flera olika system är inblandade kan det vara svårt att veta om din idé är tekniskt genomförbar. Vi kan avgränsa och bryta ut de tekniska utmaningarna och testa dem på ett så snabbt och enkelt sätt som möjligt. Vi tar reda på om din idé går att utveckla och vilka utmaningar vi behöver ta hänsyn till i fortsättningen av projektet.",
+    "button" : {
+      "label" : "testa din idé",
+      "color" : "pink",
+      "hoverColor" : "green",
+      "link" : "/"
+    }
+  },
+    "animatedBackgroundCard": {
+      "cardTitle": "Tjänstedesign & Innovation",
+      "description": "Vi designar och testar digitala verktyg och tjänster utifrån dina användares behov för att innovera och bryta ny mark inom din bransch. Från Proof of concepts och designprototyper till en första fungerande lösning (MVP).",
+      "color" : "pink",
+      "link" : "/tjanster/tjanstedesign-och-innovation"
+    },
+    "animatedBackgroundCard2": {
+      "cardTitle": "Webb- och systemutveckling",
+      "description": "Vi utvecklar skräddarsydda och användarvänliga B2B plattformar, system och applikationer. Hela vägen från idé till färdig digital lösning, helt utifrån dina specifika behov. Vi är med från första planering till driftsättning.",
+      "color" : "yellow",
+      "link" : "/tjanster/webb-och-systemutveckling"
+    },
+    "heroBanner": {
+      "title": "Digital Agency for \nMeaningful Progress.",
+      "subtitle": "phpAPPS. A digital firm merging data-focused analysis with exceptional outcomes, \nentirely devoted to cultivating the expansion of your enterprise."
+    },
+    "servicesHero": {
+      "title": "Tjänstedesign och Innovation",
+      "description": "Vi arbetar med tjänstedesign för att ta fram nya innovativa och användarvänliga tjänster, eller förbättra befintliga. Genom att ta reda på användarnas behov, beteenden och drivkrafter kan vi designa digitala upplevelser som lyfter din affär på riktigt.",
+      "img": "/img/servicesHero.png",
+      "subtitle": "TESTA DIN IDÉ",
+      "button" : {
+        "color" : "pink",
+        "label" : "nästa: Webb- och systemutveckling ",
+        "link" : "/"
+      }
+    },
+    "offersHero": {
+      "title": "Proof of Concept (POC)",
+      "img": "/img/offersHero.png",
+      "patternImg": "/img/servicesHero.png",
+      "subtitle": "HITTA POTENTIALEN I DIN IDÉ",
+      "heroCta" : {
+        "color" : "",
+        "label" : "JAG VILL PRATA POC",
+        "link" : "/"
+      },
+      "imgOverlay" : {
+        "src" : "/shapes/eclipse.svg",
+        "rounded" : "true"
+      },
+      "button" : {
+        "color" : "yellow",
+        "label" : "Nästa: PROTOTYP",
+        "link" : "/"
+      }
+    },
+    "offersHero2": {
+      "title": "Minimum Viable Product (MVP)",
+      "img": "/img/mvpHero.png",
+      "patternImg": "/img/servicesHero.png",
+      "subtitle": "BYGG FÖRSTA EN VERSION",
+      "heroCta" : {
+        "color" : "",
+        "label" : "JAG VILL PRATA MVP",
+        "link" : "/"
+      },
+      "imgOverlay" : {
+        "src" : "/shapes/triangle.svg",
+        "rounded" : "false"
+      },
+      "button" : {
+        "color" : "pink",
+        "label" : "Nästa: MVP",
+        "link" : "/"
+      }
+    },
+    "offersHero3": {
+      "title": "Digitala plattformar",
+      "img": "/img/digitalHero.png",
+      "patternImg": "/img/servicesHero.png",
+      "subtitle": "BYGG FÖRSTA EN VERSION",
+      "heroCta" : {
+        "color" : "",
+        "label" : "JAG VILL PRATA DIGITAL PLATTFORM",
+        "link" : "/"
+      },
+      "imgOverlay" : {
+        "src" : "/shapes/circle.svg",
+        "rounded" : "true"
+      },
+      "button" : {
+        "color" : "pink",
+        "label" : "Nästa: API",
+        "link" : "/"
+      }
+    },
+    "offersHero4": {
+      "title": "API-integrationer",
+      "img": "/img/apiHero.png",
+      "patternImg": "/img/servicesHero.png",
+      "subtitle": "BYGG EN FÖRSTA VERSION",
+      "heroCta" : {
+        "color" : "",
+        "label" : "JAG VILL PRATA API",
+        "link" : "/"
+      },
+      "imgOverlay" : {
+        "src" : "/shapes/chain-circle.svg",
+        "rounded" : "true"
+      },
+      "button" : {
+        "color" : "pink",
+        "label" : "Nästa: APPLIKATIONER",
+        "link" : "/"
+      }
+    },
+    "casesHero": {
+      "title": "Emma",
+      "img": "/img/casesHero.png",
+      "subtitle": "Gidås - 2018 - idag",
+      "highlights" : [
+        "Proof of concept",
+        "Prototyp",
+        "MVP"
+      ],
+      "button" : {
+        "color" : "pink",
+        "label" : "Nästa -cervd",
+        "link" : "/"
+      }
+    },
+    "shufflingImageGrid": {
+      "images": {
+        "portrait": [
+          "/imageGrid/Pontus.jpg",
+          "/imageGrid/Fredrik.jpg",
+          "/imageGrid/Jimmy.jpg",
+          "/imageGrid/jens.jpg",
+          "/imageGrid/Christer.jpg"
+        ],
+        "landscape": [
+          "/imageGrid/micke.jpg",
+          "/imageGrid/marcus.jpg",
+          "/imageGrid/elliot.jpg"
+        ]
+      }
+    },
+    "imageGrid": {
+      "title": "Östersund",
+      "img": "/people/bitmap.jpg",
+      "img1": "/people/nils.png",
+      "img2": "/people/byrahund.png",
+      "address": "Stortorget 8",
+      "number": "831 31",
+
+      "imgOverlay" : {
+        "src" : "/shapes/stripes.svg",
+        "rounded" : "false"
+      }
+    },
+    "pointerHandSection": {
+      "icon": "/icons/pointerHand.svg",
+      "text": "Du får snabbt svar på om idén är genomförbar och har potential - magkänsla och gissningar slutar vi med här."
+    },
+    "pointerHandSection2": {
+      "icon": "/icons/pointerHand2.svg",
+      "text": "Du kan testa designprototypen på riktiga kunder innan du investerar i kodtimmar - vilket ofta är den stora kostnaden"
+    },
+    "logoSlider": {
+      "logos": [
+        "/logoSlider/pfizer.svg",
+        "/logoSlider/tradera.svg",
+        "/logoSlider/bostaddirekt.svg",
+        "/logoSlider/ya.svg",
+        "/logoSlider/easypark.svg",
+        "/logoSlider/ikano.svg"
+      ]
+    },
+    "missionCard": {
+      "label": "Vad är proof of concept",
+      "cardTitle": "Sedan 2010 har vi designat och utvecklat innovativa digitala lösningar för både startups och globala jättar. ",
+      "description": "Vi hjälper dig att utmana gamla konventioner och arbeta fram digitala verktyg och tjänster som lyfter din affär. Alltid med ett fokus på affärsnytta och fantastiska användarupplevelser. Vi bryr oss om dig och dina användare på riktigt, hela vägen från idé till succé. Det är det du har bästa polare till."
+    },
+  "irregularSlider": {
+    "title": "Men vi känner ju inte varandra!",
+    "description": "Vill du inte kasta dig om halsen redan nu? Lär känna oss mer här.",
+    "button" : {
+      "label" : "LEDIGA TJÄNSTER",
+      "link" : "https://jobb.minabastapolare.se/"
+    },
+    "images": [
+        "/irregularSlider/MinaBastaPolare_1986.jpg",
+        "/irregularSlider/MinaBastaPolare_1458.jpg",
+        "/irregularSlider/MinaBastaPolare_1087.jpg",
+        "/irregularSlider/MinaBastaPolare_1759.jpg",
+        "/irregularSlider/MinaBastaPolare_1873.jpg",
+        "/irregularSlider/MinaBastaPolare_1915.jpg"
+    ]
+  },
+  "footer": {
+    "img": "/people/bitmap.jpg",
+    "img1": "/people/person1.png",
+    "img2": "/people/person2.png",
+    "img3": "/people/person3.png",
+    "img4": "/people/person4.png",
+    "iconInstagram": "/icons/instagram.svg",
+    "iconLinkedIn": "/icons/linkedin.svg"
+  },
+  "productSlide": {
+    "title": "E-Commerce",
+    "description": "Complete E-commerce Solution: Launch and grow your online store with our comprehensive e-commerce services. From customizable storefront designs to secure payment gateways and inventory management, we provide all the essential tools and features to help you succeed in the competitive e-commerce landscape."
+  },
+  "productSlider": {
+    "slides": [
+      {
+        "title": "E-Commerce",
+        "description": "Complete E-commerce Solution: Launch and grow your online store with our comprehensive e-commerce services. From customizable storefront designs to secure payment gateways and inventory management, we provide all the essential tools and features to help you succeed in the competitive e-commerce landscape.",
+        "bgColor": "primary",
+        "textColor": "white"
+      },
+      {
+        "title": "Web Design",
+        "description": "Professional and Engaging Web Design: Our web design services combine creativity and expertise to deliver visually stunning and engaging websites. We craft custom designs that align with your brand identity, ensuring a professional online presence that captivates visitors and leaves a lasting impression.",
+        "bgColor": "pinkprimary",
+        "textColor": "white"
+      },
+      {
+        "title": "Hosting",
+        "description": "Scalable and Flexible Hosting: Scale your online presence effortlessly with our flexible hosting services. Whether you're launching a small blog or managing a high-traffic e-commerce platform, our hosting solutions adapt to your needs, offering seamless scalability and resource allocation to accommodate your growing demands.",
+        "bgColor": "lightgray",
+        "textColor": "primary"
+      },
+      {
+        "title": "Data Research",
+        "description": "Scalable and Flexible Hosting: Scale your online presence effortlessly with our flexible hosting services. Whether you're launching a small blog or managing a high-traffic e-commerce platform, our hosting solutions adapt to your needs, offering seamless scalability and resource allocation to accommodate your growing demands.",
+        "bgColor": "primary",
+        "textColor": "white"
+      },
+      {
+        "title": "Theming",
+        "description": "Scalable and Flexible Hosting: Scale your online presence effortlessly with our flexible hosting services. Whether you're launching a small blog or managing a high-traffic e-commerce platform, our hosting solutions adapt to your needs, offering seamless scalability and resource allocation to accommodate your growing demands.",
+        "bgColor": "pinkprimary",
+        "textColor": "white"
+      },
+      {
+        "title": "Outsorcing Devs",
+        "description": "Scalable and Flexible Hosting: Scale your online presence effortlessly with our flexible hosting services. Whether you're launching a small blog or managing a high-traffic e-commerce platform, our hosting solutions adapt to your needs, offering seamless scalability and resource allocation to accommodate your growing demands.",
+        "bgColor": "lightgray",
+        "textColor": "primary"
+      }
+    ]
+  },
+  "clientSlider": {
+    "slides": [
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "John Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "CEO",
+        "companyLocation": "USA"
+      },
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "Xao Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "CEO",
+        "companyLocation": "China"
+      },
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "Someone Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "Project Manager",
+        "companyLocation": "USA"
+      },
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "John Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "CEO",
+        "companyLocation": "USA"
+      },
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "John Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "CEO",
+        "companyLocation": "USA"
+      },
+      {
+        "title": "Customer Experience with phpAPPS",
+        "subtitle": "Clients words",
+        "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+        "clientName": "John Doe",
+        "companyName": "Biometrics",
+        "clientPosition": "CEO",
+        "companyLocation": "USA"
+      }
+    ]
+  },
+  "newProject": {
+    "title": "Start a new project"
+  },
+  "clientSlide": {
+    "title": "Customer Experience with phpAPPS",
+    "subtitle": "Clients words",
+    "description": "\"I have collaborated with phpAPPS for about 7 years now and my company CompanyName has used their services in variety of functions. They are proactive and extremely reactive and we have integrated their team and services in our global marketing strategy. Kara5’s market-leading expertise for web design, SEO and digital marketing allowed us to increase our visibility on the market. The quality of their service is amazing and I recommend phpAPPS without hesitation.\"",
+    "clientName": "John Doe",
+    "companyName": "Biometrics",
+    "clientPosition": "CEO",
+    "companyLocation": "USA"
+  },
+  "contactSection": {
+    "title": "Vill du prata framgång?",
+    "subtitle": "NYA UPPDRAG",
+    "employees": [
+      {
+        "name": "Christer Hillörn",
+        "profession": "Digital strateg",
+        "number": "070 - 690 14 50",
+        "email": "christer@minabastapolare.se"
+      },
+      {
+        "name": "Marcus Thorhuus",
+        "profession": "VD",
+        "number": "073 - 534 22 26",
+        "email": "marcus@minabastapolare.se"
+      },
+      {
+        "name": "Pontus Sivertsen",
+        "profession": "Affärsutvecklare",
+        "number": "073 - 098 62 82",
+        "email": "pontus.s@minabastapolare.se"
+      }
+    ],
+    "contactPageList": [
+      {
+        "name": "Marcus Ohlsén",
+        "profession": "Projektledare",
+        "number": "070 - 512 03 45",
+        "email": "marcus.o@minabastapolare.se"
+      },
+      {
+        "name": "Simon Nordmark",
+        "profession": "Projektledare",
+        "number": "070 - 219 00 30",
+        "email": "simon@minabastapolare.se"
+      }
+    ],
+    "employeList": [
+      {
+        "name": "Michaela Arnklint",
+        "email": "michaela@minabastapolare.se"
+      },
+      {
+        "name": "Jens Davidsson",
+        "email": "jens@minabastapolare.se"
+      },
+      {
+        "name": "Fredrik Mattiasson",
+        "email": "fredrik.m@minabastapolare.se"
+      },
+      {
+        "name": "Pontus Persson",
+        "email": "pontus@minabastapolare.se"
+      },
+      {
+        "name": "Marcus Larsson",
+        "email": "marcus.l@minabastapolare.se"
+      },
+      {
+        "name": "Jimmy Prydz",
+        "email": "jimmy@minabastapolare.se"
+      },
+      {
+        "name": "Fredrik Östberg",
+        "email": "fredrik@minabastapolare.se"
+      },
+      {
+        "name": "Bella Pellving",
+        "email": "bella@minabastapolare.se"
+      },
+      {
+        "name": "Nils Knutas",
+        "email": "nills.k@minabastapolare.se"
+      },
+      {
+        "name": "Ronja Myhr",
+        "email": "ronja@minabastapolare.se"
+      },
+      {
+        "name": "Xinyao Feng",
+        "email": "xinyao@minabastapolare.se"
+      }
+    ]
+  }
+}
