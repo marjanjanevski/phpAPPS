@@ -33,16 +33,6 @@ const Home = () => {
 
             <div className="mbp-container">
                 <ProductSlider slides={data.productSlider.slides} />
-
-                <ClientSlide title={data.clientSlide.title}
-                             subtitle={data.clientSlide.subtitle}
-                             description={data.clientSlide.description}
-                             clientName={data.clientSlide.clientName}
-                             companyName={data.clientSlide.companyName}
-                             clientPosition={data.clientSlide.clientPosition}
-                             companyLocation={data.clientSlide.companyLocation}
-
-                />
             </div>
 
 
@@ -56,37 +46,6 @@ const Home = () => {
 
             <LogoSlider logos={data.logoSlider.logos} />
 
-            {/*<div className="mbp-container mx-auto">*/}
-
-            {/*    <MissionCard cardTitle={data.missionCard.cardTitle}*/}
-            {/*                    description={data.missionCard.description}*/}
-            {/*    />*/}
-
-            {/*    <Divider color="green"/>*/}
-
-
-
-            {/*    <Divider color="pink" className="lg:hidden"/>*/}
-
-
-
-            {/*    <IrregularSlider title={data.irregularSlider.title}*/}
-            {/*                     description={data.irregularSlider.description}*/}
-            {/*                     images={data.irregularSlider.images}*/}
-            {/*                     button={data.irregularSlider.button}*/}
-            {/*    />*/}
-
-            {/*    <Divider color="primary"/>*/}
-
-            {/*    <ContactSection*/}
-            {/*        title={data.contactSection.title}*/}
-            {/*        subtitle={data.contactSection.subtitle}*/}
-            {/*        employees={data.contactSection.employees}*/}
-            {/*        employeList={[...data.contactSection.contactPageList, ...data.contactSection.employeList]}*/}
-            {/*        contactPageList={data.contactSection.contactPageList}*/}
-            {/*    />*/}
-            {/*</div>*/}
-            {/*<ShufflingImageGrid images={data.shufflingImageGrid.images} />*/}
         </section>
 
     );

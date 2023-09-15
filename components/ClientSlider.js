@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import ClientSlide from "./ClientSlide"; // Import the ClientSlide component
+import ClientSlide from "./ClientSlide";
 import Image from "next/image";
 
 const ClientSlider = ({ slides }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slideCount = slides.length;
+    const sliderRef = useRef();
 
     const appendSlideNumbers = () => (
         <div className="custom-slide-numbers">
-            {currentSlide + 1}/{slideCount}
+            <span className="text-pinkprimary">{currentSlide + 1}</span>
+            /
+            <span className="text-primary">{slideCount}</span>
         </div>
     );
 
@@ -44,32 +47,46 @@ const ClientSlider = ({ slides }) => {
         ));
     }
 
+    const handlePrevClick = () => {
+        if (sliderRef.current) {
+            sliderRef.current.slickPrev();
+        }
+    };
+
+    const handleNextClick = () => {
+        if (sliderRef.current) {
+            sliderRef.current.slickNext();
+        }
+    };
+
     return (
         <div className="client-slider-container overflow-hidden md:overflow-visible text-center grid grid-cols-12">
             <div className={"col-span-12 relative"}>
-                <Slider {...settings}>
+                <Slider {...settings} ref={sliderRef}>
                     {repeater()}
                 </Slider>
                 {
                     currentSlide !== 0 &&
-                    <Image className={"cursor-pointer absolute -left-10 top-1/2 transform -translate-y-1/2 hidden md:block"}
-                           onClick={() => setCurrentSlide(currentSlide - 1)}
-                           src="/icons/arrow-left-circle.svg"
-                           width={80}
-                           height={80}
-                           alt="arrow-left-circle"
-                           style={{ height: 'auto' }}
+                    <Image
+                        className={"cursor-pointer absolute -left-20 top-1/2 transform -translate-y-1/2 hidden md:block"}
+                        onClick={handlePrevClick}
+                        src="/icons/LeftSliderButton.png"
+                        width={40}
+                        height={40}
+                        alt="arrow-left-circle"
+                        style={{ height: 'auto' }}
                     />
                 }
                 {
                     currentSlide !== slideCount - 1 &&
-                    <Image className={"cursor-pointer absolute -right-10 top-1/2 transform -translate-y-1/2 hidden md:block"}
-                           onClick={() => setCurrentSlide(currentSlide + 1)}
-                           src="/icons/arrow-right-circle.svg"
-                           width={80}
-                           height={80}
-                           alt="arrow-right-circle"
-                           style={{ height: '80px' }}
+                    <Image
+                        className={"cursor-pointer absolute -right-20 top-1/2 transform -translate-y-1/2 hidden md:block"}
+                        onClick={handleNextClick}
+                        src="/icons/RightSliderButton.png"
+                        width={40}
+                        height={40}
+                        alt="arrow-right-circle"
+                        style={{ height: 'auto' }}
                     />
                 }
             </div>

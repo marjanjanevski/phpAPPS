@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" key="cookieconsent" />
         </head>
 
-      <body id="body" className={`bg-white mx-auto pb-12`}>
+      <body id="body" className={`bg-white mx-auto`}>
 
          {/*{isStaging && (*/}
          {/* <Script id="marker-io">*/}

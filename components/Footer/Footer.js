@@ -60,49 +60,6 @@ const Footer = () => {
                 </div>
 
             </div>
-
-            {/*<div className={`flex justify-between pt-5 gap-2 flex-col lg:flex-row ${isContactPage ? "text-white" : "text-primary"}`}>*/}
-
-            {/*    <div className="flex gap-2 flex-col lg:flex-row ">*/}
-
-            {/*        <p>Copyright © 2010-{new Date().getFullYear()} Mina Bästa Polare AB.</p>*/}
- border-l-2 border-pinkprimary
-            {/*        <div className="group">*/}
-            {/*            <Link href={"/cookies"} className={"hover:underline underline md:no-underline underline-offset-2 md:ml-4"}>Cookies</Link>*/}
-            {/*            <Link href={"/integritetspolicy"} className={"hover:underline underline md:no-underline underline-offset-2 ml-4"}>Integritetspolicy</Link>*/}
-            {/*        </div>*/}
-
-            {/*    </div>*/}
-
-            {/*    <div className="flex lg:items-center group">*/}
-
-            {/*        <div className="flex group hover:scale-110">*/}
-
-            {/*            <Link href={"https://www.google.com/maps/place/Mina+B%C3%A4sta+Polare/@63.1788347,14.6338531,17z/data=!3m1!4b1!4m6!3m5!1s0x466fb83dc982f133:0x5d83ba2d9821d354!8m2!3d63.1788347!4d14.6360471!16s%2Fg%2F1tj9514j"}>*/}
-            {/*                <Image className={`w-6 h-6 ${isContactPage ? "hidden" : ""}`} src={"/icons/mapPin-blue.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-            {/*                <Image className={`w-6 h-6 ${isContactPage ? "" : "hidden"}`} src={"/icons/mapPin.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-            {/*            </Link>*/}
-
-            {/*            <p className="text-base ml-2 group-hover:underline underline-offset-2">Östersund, Sweden</p>*/}
-
-            {/*        </div>*/}
-
-            {/*        <div className="flex group">*/}
-            {/*            <Link href={"https://se.linkedin.com/company/mina-basta-polare"}>*/}
-            {/*                <Image className={`w-6 h-6 ml-4 hover:scale-110 ${isContactPage ? "hidden" : ""}`} src={"/icons/icon-linked-in.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-            {/*                <Image className={`w-6 h-6 ml-4 hover:-scale-110 ${isContactPage ? "" : "hidden"}`} src={"/icons/icon-linked-in-white.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-
-            {/*            </Link>*/}
-
-            {/*            <Link href={"https://www.instagram.com/minabastapolare/"}>*/}
-            {/*                <Image className={`w-6 h-6 ml-4 hover:scale-110 ${isContactPage ? "hidden" : ""}`} src={"/icons/instagram.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-            {/*                <Image className={`w-6 h-6 ml-4 hover:scale-110 ${isContactPage ? "" : "hidden"}`} src={"/icons/instagramWhite.svg"} alt={"image"} width={750} height={750} quality={100} />*/}
-            {/*            </Link>*/}
-
-            {/*        </div>*/}
-
-            {/*    </div>*/}
-            {/*</div>*/}
         </footer>
 
     )
