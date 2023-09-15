@@ -15,7 +15,7 @@ const Menu = () => {
         <header className="bg-white">
             <div className="mbp-container ">
                 <div className="header-container py-4 lg:py-8 z-20 flex justify-between">
-                    <Image className="" src={"/icons/BointsoftLogoLetters.svg"} alt={"Logo Image Here"} width={240} height={100}/>
+                    <Image className="" src={"/icons/blogob.png"} alt={"Logo Image Here"} width={240} height={100}/>
 
                     <div className="flex gap-12 items-center hidden lg:flex z-10">
                         <Link className="text-3xl hover:border-b-2 border-pinkprimary" href={"#"}>Our Services</Link>
