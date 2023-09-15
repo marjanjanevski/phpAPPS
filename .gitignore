@@ -19,8 +19,8 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-.env
+# .env
 .env.production
-next.config.js
+# next.config.js
 
 .idea/
