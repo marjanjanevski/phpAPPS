@@ -1,21 +1,21 @@
 "use client";
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from "next/link";
-import React, { useState } from 'react';
-const Menu = () => {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+import React, { useState } from 'react';
+
+const Menu = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen)
+        setIsMenuOpen(!isMenuOpen);
     }
 
-
     return (
-        <header className="bg-white">
-            <div className="mbp-container ">
-                <div className="header-container py-4 lg:py-8 z-20 flex justify-between">
-                    <Image className="" src={"/icons/blogob.png"} alt={"Logo Image Here"} width={240} height={100}/>
+        <header className="bg-white fixed top-0 left-0 right-0 z-30">
+            <div className="mbp-container">
+                <div className="header-container py-4 lg:py-8 flex justify-between">
+                    <Image className="z-30" src={"/icons/bsl.png"} alt={"Logo Image Here"} width={30} height={30}/>
 
                     <div className="flex gap-12 items-center hidden lg:flex z-10">
                         <Link className="text-3xl hover:border-b-2 border-pinkprimary" href={"#"}>Our Services</Link>
@@ -24,9 +24,7 @@ const Menu = () => {
                         <Link className="text-3xl hover:border-b-2 border-pinkprimary" href={"#"}>Contact us</Link>
                     </div>
 
-                    <div className={"hamburger-menu lg:hidden flex items-center cursor-pointer"}
-                        onClick={toggleMenu}
-                    >
+                    <div className={"hamburger-menu lg:hidden flex items-center cursor-pointer z-30"} onClick={toggleMenu}>
                         <Image
                             src={isMenuOpen ? "/icons/hamburgerX.svg" : "/icons/hamburger.svg"}
                             alt={isMenuOpen ? "close" : "hamburger"}
@@ -35,27 +33,35 @@ const Menu = () => {
                         />
                     </div>
                 </div>
+                {isMenuOpen && (
+                    <div className="lg:hidden w-full h-full fixed top-0 left-0 bg-white pt-24 pl-4 z-20">
+                        {/* Render your menu items here */}
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>E-commerce</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>UI/UX Design</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>Theming</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>Outsorcing Developers</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>Projects</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>Agency</Link>
+                        </div>
+                        <div className="text-3xl py-4 text-primary font-secondary">
+                            <Link href={"#"}>Contact us</Link>
+                        </div>
+                    </div>
+                )}
             </div>
         </header>
-    )
-
-    // return (
-    //     <div className={`mbp-container left-0 right-0 mx-auto ${config.position} md:absolute`}>
-    //         <div className={`flex lg:w-auto md:flex-col justify-between lg:pr-0 lg:pt-6`}>
-    //
-    //             <Link href={'/'} className="inline-block max-w-max z-10 ">
-    //                 <Image className="w-20 h-20 -mt-1 pt-4" src={config.logo} alt={"logo"} width={750} height={11} />
-    //             </Link>
-    //
-    //             <div className="mt-4 max-w-max z-10">
-    //                 <p onClick={openModal} className={`cursor-pointer text-sm uppercase tracking-2 font-secondary font-bold md:rotated-text md:rotate-180 rounded-full pt-2 pb-1 px-4 md:py-4 md:pl-1 md:pr-2 text-white ${config.menuBtnColor}`}>
-    //                     Meny
-    //                 </p>
-    //             </div>
-    //
-    //         </div>
-    //
-    //     </div>
-    // );
+    );
 }
+
 export default Menu;

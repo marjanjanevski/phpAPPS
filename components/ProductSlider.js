@@ -34,7 +34,7 @@ const ProductSlider = ({ slides }) => {
                     slidesToScroll: 2,
                     initialSlide: 0,
                     centerPadding: '16px',
-                    centerMode: true,
+                    centerMode: false,
                 }
             },
             {
@@ -45,7 +45,7 @@ const ProductSlider = ({ slides }) => {
                     slidesToScroll: 1,
                     initialSlide: 0,
                     centerPadding: '16px',
-                    centerMode: true,
+                    centerMode: false,
                 }
             }
         ]

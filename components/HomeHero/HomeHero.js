@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const HomeHero = ({title, subtitle }) => {
     return (
-        <div className="bg-white lg:-mt-[140px]">
-            <div className="mbp-container relative grid grid-cols-12 items-center h-[30vh] md:h-[70vh] lg:h-[100vh]">
+        <div className="bg-white">
+            <div className="mbp-container relative grid grid-cols-12 items-center h-[50vh] md:h-[70vh] lg:h-[100vh]">
 
                 <div className="col-span-11 lg:col-span-7 z-10">
                     <h1 className="lg:text-9.5xl md:text-[60px] text-[32px] leading-[120%] text-primary mb-10 font-tertiary">{title}</h1>
