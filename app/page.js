@@ -8,6 +8,7 @@ import React                  from "react";
 import ImageText5050 from "../components/ImageText5050";
 import NewProject from "../components/NewProject";
 import ClientSlider from "../components/ClientSlider";
+import CreateShop from "../components/CreateShop";
 
 const data = require('../public/data.json');
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
                 <ProductSlider slides={data.productSlider.slides} />
             </div>
 
+            <CreateShop />
 
             <ImageText5050 img={data.imageText5050.img}/>
 
